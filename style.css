@@ -1,0 +1,149 @@
+body{
+    
+    background-image: url(https://www.desktopbackground.org/download/2560x1440/2010/05/10/15242_star-wars-backgrounds-werq081_2560x1600_h.jpg);
+    background-size: cover;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
+.opening_text_container {
+    width: 100%;
+    height: 100%;
+   
+ display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .opening_text {
+    color: #33ACC4;
+    animation: openingText 10s linear;
+    animation-fill-mode: forwards;
+  }
+  
+.opening_image_container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .opening_text {
+    color: #33ACC4;
+    animation: openingText 10s linear;
+    animation-fill-mode: forwards;
+    font-size: 50px;
+    font-family: 
+  }
+
+img{
+    width: 4OOpx;
+    height: 400px;
+    margin-left: auto;
+    margin-right:auto;
+    display:block;
+
+
+}
+p, h4, h6 {
+    font-family: "Pathway Gothic One", sans-serif;
+    color: #D8C922;
+  }
+
+h4{
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+}
+
+.fade{
+    position: relative;
+    width:50%;
+    min-height: 60vh;
+    top: -25px;
+    z-index: 1;
+}
+
+p{
+    text-align: center;
+    font-size: 25px;
+    line-height: normal;
+    
+    
+}
+.star-wars{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 1200px;
+    color: #FFB400;
+    font-family:'Pathway Gothic One ', Sans-serif;
+    font-size:500%;
+    font-weight:600;
+    letter-spacing: 1xp;
+    line-height: 150%;
+    perspective: 500px;
+    text-align:justify;
+    min-width: 60vh;
+}
+
+.crawl{
+    position: relative;
+    top:9999px;
+    transform-origin: 50% 100%;
+    animation: crawl 60s  infinite linear;
+    animation: crawl 96s linear infinite;
+ 
+}
+
+.crawl>.title{
+    font-size: 90%
+    text-align: center;
+}
+
+.crawl > .title h1{
+    margin:0 0 100PX;
+    text-transform: uppercase;
+}
+
+@keyframes openingText {
+  0% {opacity: 0;}
+  15% {opacity: 1;}
+  85% {opacity: 1;}
+  100% {opacity: 0;}
+}
+@keyframes crawl{
+    0%{
+        top:0;
+        transform: rotateX(20deg) translateZ(0);
+}
+100%{
+    top: -6000px;
+    transform: rotateX(25deg) translateZ(-2500px):
+
+    text-align: center;
+}
+}
+
+
+
+@keyframes logo {
+    0% {
+        width: 18em;        
+        transform: scale(2.75);
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+        width: 18em;      
+    }
+    100% {
+        opacity: 0;
+        transform: scale(0.1);
+        width: 18em;        
+    }
+}
